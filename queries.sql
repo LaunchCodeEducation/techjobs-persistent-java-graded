@@ -5,6 +5,9 @@ Field: employer TYPE: VARCHAR
 Field: name TYPE: VARCHAR
 Field: skills TYPE: VARCHAR */
 -- Part 2: Test it with SQL
+SELECT NAME
+FROM employer
+WHERE location = "St. Louis City";
 
 -- Part 3: Test it with SQL
 

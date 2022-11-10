@@ -19,6 +19,8 @@ public abstract class AbstractEntity {
     @Size(min = 3, max = 120, message = "Name must be between 3 and 120 characters.")
     private String name;
 
+
+
     public void setId(int id) {
         this.id = id;
     }
